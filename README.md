@@ -20,7 +20,7 @@ A modern web UI that allows HR users to upload resumes, search candidates, and v
 <h2 align="left">🛠️ Tech Stacks</h2>
 
 ###
-Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | Faiss | Google Gemini | HuggingFace | Pydantic
+Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | LangChain | Faiss | Google Gemini | HuggingFace | Pydantic
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
@@ -31,6 +31,8 @@ Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | Faiss | Google Gemini 
   <img src="https://raw.githubusercontent.com/tomchristie/uvicorn/main/docs/uvicorn.png" height="40" alt="uvicorn logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
+  <img width="12" />
+  <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langchain-color.png" height="40" alt="langchain logo"  />
   <img width="12" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/960px-Google_Gemini_icon_2025.svg.png" height="40" alt="gemini logo"  />
   <img width="12" />
