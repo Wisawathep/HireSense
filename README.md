@@ -63,8 +63,6 @@ Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | Faiss | Google Gemini 
   <img width="12" />
   <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final2.png" height="600"  />
   <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final3.png" height="600"  />
-  <img width="12" />  
   <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final4.png" height="600"  />
   <img width="12" />  
   <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/workspace_final1.png" height="600"  />
