@@ -2,18 +2,24 @@
 A web application that helps students choose elective courses based on their interests and preferences.
 
 ## ⭐ Motivation
-Choosing elective courses can be difficult because students often lack clear information 
-about which courses match their interests. This project was created to help solve that problem.
+The recruitment process often requires HR teams to manually review a large number of resumes, which is time-consuming, repetitive, and prone to human bias.
+As a computer engineering student with a strong interest in AI and backend systems, I wanted to explore how Large Language Models (LLMs) and vector search can be applied to solve real-world problems.
+HireSense was created to experiment with an AI-powered resume analysis system that can automatically index resumes, retrieve relevant candidates based on job requirements, and generate concise summaries to support faster and more informed hiring decisions.
 
 ## 🔑 Key Features
-- Recommends elective courses based on user preferences using Jaccard Similality Algorithm
-- Simple and intuitive web interface
-- Course filtering and ranking system
+- Resume Upload & Parsing
+Upload PDF resumes and automatically extract text content for further processing.
+- Semantic Resume Search (RAG-based)
+Search resumes using natural language queries (e.g., “AngularJS developer”) with vector similarity instead of keyword matching.
+- AI-Powered Resume Summarization
+Use LLMs to summarize candidate profiles, highlight matching skills, relevant experience, and potential gaps.
+- Interactive Web Interface
+A modern web UI that allows HR users to upload resumes, search candidates, and view AI-generated results in real time.
 
 <h2 align="left">🛠️ Tech Stacks</h2>
 
 ###
-Python | JavaScript | Next.js | Uvicorn | FastAPI | Faiss (Vector Store) | Gemini (LLM) | HuggingFace (Embedding Model) | RAG
+Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | Faiss | Google Gemini | HuggingFace | Pydantic
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
@@ -21,39 +27,54 @@ Python | JavaScript | Next.js | Uvicorn | FastAPI | Faiss (Vector Store) | Gemin
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
   <img width="12" />
+  <img src="https://raw.githubusercontent.com/tomchristie/uvicorn/main/docs/uvicorn.png" height="40" alt="uvicorn logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
   <img width="12" />
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/960px-Google_Gemini_icon_2025.svg.png" height="40" alt="gemini logo"  />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/960px-Google_Gemini_icon_2025.svg.png" height="40" alt="gemini logo"  />
+  <img width="12" />
+  <img src="https://cdn.worldvectorlogo.com/logos/huggingface-2.svg" height="40" alt="huggingface logo"  />
+  <img width="12" />
+  <img src="https://pydantic.dev/favicon/favicon.ico.svg" height="40" alt="pydantic logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
   <img width="12" />
 </div>
 
 ## 📚 What I Learned
-- How to design a simple recommendation logic
-- How to build a web application as a Frontend Developer
+- How to design and implement an end-to-end Retrieval-Augmented Generation (RAG) pipeline
+- Practical use of vector databases (FAISS) for semantic document retrieval
+- Integrating LLMs into backend services with controlled prompts and context management
+- Designing clean API architectures for AI-driven applications
+- Bridging frontend and backend systems in a full-stack AI project
 
+## 📜 Architecture (RAG Pipeline)
+<div align="center">
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/HireSense%20Architecture%201.png" height="600"  />
+  <img width="12" />
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/HireSense%20Architecture%202.png" height="600"  />
+  <img width="12" />
+</div>
+  
 ## 📜 Result
 <div align="center">
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/homepage_final.png" height="600"  />
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final1.png" height="600"  />
   <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/homepage_final2.png" height="600"  />
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final2.png" height="600"  />
   <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/homepage_final3.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/search_final.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/search_final2.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/search_final3.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/survey_final.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/survey_final2.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/result_final.png" height="600"  />
-  <img width="12" />
-  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/Pick%20Me%20Course/result_final2.png" height="600"  />
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final3.png" height="600"  />
+  <img width="12" />  
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/homepage_final4.png" height="600"  />
+  <img width="12" />  
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/workspace_final1.png" height="600"  />
+  <img width="12" />  
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/upload_final.png" height="600"  />
+  <img width="12" />  
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/added_resumes_final.png" height="600"  />
+  <img width="12" />  
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/search_final.png" height="600"  />
+  <img width="12" />  
+  <img src="https://github.com/Wisawathep/ReadmeTools/blob/main/HireSense/result_final.png" height="600"  />
 </div>
 
 ***
