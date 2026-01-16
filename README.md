@@ -1,5 +1,6 @@
 # HireSense | AI-Powered Resume Analysis Web Application
-A web application that helps students choose elective courses based on their interests and preferences.
+HireSense is an AI-powered resume analysis web application that uses a Retrieval-Augmented Generation (RAG) pipeline to semantically search and summarize resumes.
+The system enables HR users to upload PDF resumes, retrieve relevant candidates based on job requirements, and generate concise, LLM-based summaries to support faster and more accurate screening decisions.
 
 ## ⭐ Motivation
 The recruitment process often requires HR teams to manually review a large number of resumes, which is time-consuming, repetitive, and prone to human bias.
@@ -35,7 +36,7 @@ Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | Faiss | Google Gemini 
   <img width="12" />
   <img src="https://cdn.worldvectorlogo.com/logos/huggingface-2.svg" height="40" alt="huggingface logo"  />
   <img width="12" />
-  <img src="https://pydantic.dev/favicon/favicon.ico.svg" height="40" alt="pydantic logo"  />
+  <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/pydantic-srs7pxjs9skodrjb64x86f.png/pydantic-ae96ag6mv67bf6hz5726v8.png?_a=DATAg1AAZAA0" height="40" alt="pydantic logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
   <img width="12" />
