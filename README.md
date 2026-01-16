@@ -8,14 +8,10 @@ As a computer engineering student with a strong interest in AI and backend syste
 HireSense was created to experiment with an AI-powered resume analysis system that can automatically index resumes, retrieve relevant candidates based on job requirements, and generate concise summaries to support faster and more informed hiring decisions.
 
 ## 🔑 Key Features
-- Resume Upload & Parsing
-Upload PDF resumes and automatically extract text content for further processing.
-- Semantic Resume Search (RAG-based)
-Search resumes using natural language queries (e.g., “AngularJS developer”) with vector similarity instead of keyword matching.
-- AI-Powered Resume Summarization
-Use LLMs to summarize candidate profiles, highlight matching skills, relevant experience, and potential gaps.
-- Interactive Web Interface
-A modern web UI that allows HR users to upload resumes, search candidates, and view AI-generated results in real time.
+- Resume Upload & Parsing : Upload PDF resumes and automatically extract text content for further processing.
+- Semantic Resume Search (RAG-based) : Search resumes using natural language queries (e.g., “AngularJS developer”) with vector similarity instead of keyword matching.
+- AI-Powered Resume Summarization : Use LLMs to summarize candidate profiles, highlight matching skills, relevant experience, and potential gaps.
+- Interactive Web Interface : A modern web UI that allows HR users to upload resumes, search candidates, and view AI-generated results in real time.
 
 <h2 align="left">🛠️ Tech Stacks</h2>
 
