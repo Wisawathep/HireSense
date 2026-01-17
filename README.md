@@ -55,7 +55,7 @@ Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | LangChain | Faiss | Go
   <img width="12" />
 </div>
 
-# 🧱 File Directory Structure
+## 🧱 File Directory Structure
 ```
 HireSense/
 ├── frontend/                          # Next.js Frontend (UI Layer)
