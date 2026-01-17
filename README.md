@@ -56,6 +56,7 @@ Python | CSS | JavaScript | Next.js | Uvicorn | FastAPI | LangChain | Faiss | Go
 </div>
 
 # 🧱 File Directory Structure
+```
 HireSense/
 ├── frontend/                         # Next.js Frontend (UI Layer)
 │   ├── src/app/
@@ -110,6 +111,7 @@ HireSense/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## 📜 Result
 <div align="center">
